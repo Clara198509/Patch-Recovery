@@ -1,5 +1,9 @@
 name: RECOVERY
 
+permissions:
+  contents: write
+  actions: write
+
 on:
   workflow_dispatch:
     inputs:
